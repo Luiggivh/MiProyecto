@@ -1,0 +1,50 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+
+header{
+   background-color: blue;
+   color: white;
+
+   padding: 2px;
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+}
+
+.ensancha1{
+    flex-grow: 1;
+}
+
+.pan{ /*nombre de la clase que será colocado en el html*/
+    
+    background-color: burlywood;
+    
+    padding-top: 2em; /*para poner ancho al borde top*/
+    padding-bottom: 2em;
+    border-radius: 2em; /*para hacer borde*/
+
+}
+
+.lechuga{
+    background-color: green;
+    /*height: 100px;*/
+
+    padding-top: 1em; /*para poner ancho al borde top*/
+    padding-bottom: 1em;
+}
+
+.queso{
+    background-color: yellow;
+    /*height: 100px;*/
+    padding-top: 0.5em; /*para poner ancho al borde top*/
+    padding-bottom: 0.5em;
+}
+.carne{
+    background-color: brown;
+    padding: 2em;
+}
